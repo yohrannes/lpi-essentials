@@ -1,0 +1,11 @@
+Como definir o shell padrão de cada usuário.
+
+echo $SHELL ## Variavel que define o shell padrão para cada usuário.
+
+cat /etc/passwd | grep seu-usuario
+
+Pode editar manualmente ou utilizando o usermod
+
+sudo usermod -s /usr/bin/zsh seu-usuario
+
+## Encerrar a sessão do usuário para depois entrar novamente
