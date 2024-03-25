@@ -6,4 +6,13 @@ PATH=$PATH:/novo/diretório ## Adiciona um novo diretório a variéval PATH
 
 whoami ## Comando que mostra qual o seu usuário
 
-USER e LOGNAME ## 
+USER e LOGNAME ## Variaveis que mostram o usuário atual do seu bash.
+
+su ## Comando que alterna o usuário - abraviação de Switch User
+
+## Desligamento e reinicialização do equipamento.
+## Níveis de execução (runlevel)
+
+init 0 ## Muda meu nível de execução para 0 (desligar)
+
+init 6 ## Muda runlevel para 6 (reiniciar)
