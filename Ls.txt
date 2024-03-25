@@ -1,0 +1,13 @@
+ls -a ou la --all # Mostra tudo e os diretorios ocultos
+ls -l
+
+# -l lista os detalhes
+# -a Lista os ocultos
+
+ls -lSa ## o S ordena por tamanho
+
+ls -lSar ## O r reverte a ordem, no caso colocaria o maior lá para baixo.
+
+ls -R ## Acessa todos os diretorios de forma recursiva
+
+ls -lh ## Mostra o tanahdo dos arquivo em MB
