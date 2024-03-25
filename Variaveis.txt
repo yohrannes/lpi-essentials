@@ -1,0 +1,9 @@
+echo -n mensagem ## O n impede que quebre a linha ao exibir a mensagem
+
+PATH ## O bash irá procurar os comandos (binários) que serão executados, nos diretórios dentro desta variável.....
+
+PATH=$PATH:/novo/diretório ## Adiciona um novo diretório a variéval PATH
+
+whoami ## Comando que mostra qual o seu usuário
+
+USER e LOGNAME ## 
