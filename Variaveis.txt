@@ -11,8 +11,9 @@ USER e LOGNAME ## Variaveis que mostram o usuário atual do seu bash.
 su ## Comando que alterna o usuário - abraviação de Switch User
 
 ## Desligamento e reinicialização do equipamento.
-## Níveis de execução (runlevel)
+## Níveis de execução (comando runlevel)
 
-init 0 ## Muda meu nível de execução para 0 (desligar)
-
+init 0 ## Muda meu nível de execução para 0 (desligar) comando poweroff ou shutdown -P
 init 6 ## Muda runlevel para 6 (reiniciar)
+init 5 ## Multi usuario, com inferface grafica
+init 3 ## Multi usuario, sem inferface grafica
