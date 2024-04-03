@@ -17,3 +17,18 @@ init 0 ## Muda meu nível de execução para 0 (desligar) comando poweroff ou sh
 init 6 ## Muda runlevel para 6 (reiniciar)
 init 5 ## Multi usuario, com inferface grafica
 init 3 ## Multi usuario, sem inferface grafica
+
+set # lista as variaveis do sistema
+ps -jh # Lista as sessões abertas no terminal
+
+# Declarando uma variavel
+NOME="Yohrannes Santos Bigoli" # Esta variavel vicará somente disponível no bash atual do usuario.
+
+export NOME ## Este comando ele exporta a variavel para se tornar uma variavel de ambiente, podendo ser acessada de qualquer local no terminal do servidor sendo GLOBAL.
+
+OLDPWD # Variavel que armazena o diratório anterior do usuario.
+
+
+set # Variaveis locais
+env # Variaveis de ambiente
+
