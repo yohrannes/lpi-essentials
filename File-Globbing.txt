@@ -1,0 +1,7 @@
+* # Tudo
+? # Um digito somente
+
+ls [Ww]eather[Rr]eport199[0-9]?201[0-9]*.csv # Listando um arquivo que começe com W ou w + eather + R ou r + eport199 + Um digito que seja do 0 ao 9 + Um caractere qualquer + 201 + Um digito que seja do 0 ao 9 + Quaisquer tipo e quantidade de caracteres + .csv
+
+ls [^doijv]* # Pega tudo que não tem doijv
+
