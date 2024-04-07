@@ -5,3 +5,4 @@ ls [Ww]eather[Rr]eport199[0-9]?201[0-9]*.csv # Listando um arquivo que começe c
 
 ls [^doijv]* # Pega tudo que não tem doijv
 
+touch file{1,2,3,4}.txt #Crie 4 arquivos em somente um comando.

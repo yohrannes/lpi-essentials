@@ -1,0 +1,20 @@
+# comando hostnamectl
+hostnamectl
+ Static hostname: jamaica
+       Icon name: computer-vm
+         Chassis: vm
+      Machine ID: 451a214fe8d3488d96e4080c54746cd7
+         Boot ID: 71e7fe674f584ab7bf9e726b9a630951
+  Virtualization: kvm
+Operating System: Ubuntu 22.04.4 LTS              
+          Kernel: Linux 5.15.0-1051-oracle
+    Architecture: arm64
+ Hardware Vendor: QEMU
+  Hardware Model: KVM Virtual Machine
+
+Mostra o hostname e a arquitetura, dentre outras informações...
+
+# hostnamectl set-hostname # muda o hostname da maquina
+ubuntu@teste:~$ sudo hostnamectl set-hostname jamaica
+ubuntu@teste:~$ bash
+ubuntu@jamaica:~$

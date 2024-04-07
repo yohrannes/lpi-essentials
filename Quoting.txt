@@ -1,0 +1,19 @@
+
+# Aspas simples não exibe o conteudo da variavel de qualquer coisa tentro das aspas simples
+
+echo o usuario logado no momento e o '$LOGNAME'
+o usuario logado no momento e o $LOGNAME
+
+# O proximo dado após a contra barra ele interpreta como digitado
+
+echo "Seu troco é \$3.50"
+Seu troco é 3.50
+
+# Criando e acessando uma pasta onde o nome tela possui espaços
+mkdir dados\ de\ clientes
+cd dados\  de\ clientes
+
+# Dividindo o comando para melhor organização
+k \
+get \
+nodes
