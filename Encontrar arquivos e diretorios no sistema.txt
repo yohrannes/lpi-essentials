@@ -1,0 +1,12 @@
+locate
+
+# antes de executar, execute sudo updatedb
+locate arquivo.txt
+
+find /caminho/desejado -iname "*.txt"
+
+# Procura os arquivos de dados de qualquer comando
+whereis ls
+
+
+
