@@ -1,0 +1,2 @@
+man -k comando-desejado
+apropos comando-desejado
