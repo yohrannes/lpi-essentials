@@ -1,0 +1,8 @@
+## Arquivo principal de configuração do bash no sistema.
+/etc//bash.bashrc
+
+## Arquivo de configuração do bash do usuario.
+$HOME/.bashrc
+
+## O primeiro arquivo que é executado no bash é o profile, de lá ele vai para o outro.
+

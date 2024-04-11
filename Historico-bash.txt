@@ -1,0 +1,11 @@
+# Ver manual
+man bash
+
+# Executar linha no histórico
+!<n-da-linha>
+
+# Vericar variaveis de configuração do historico
+set | grep hist
+
+# Alterar o número de comandos que o comando history vai lembrar
+export HISTFILESIZE=50
